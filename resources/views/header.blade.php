@@ -16,19 +16,16 @@
 <header>
     <nav class="navigation">
         <div class="max-w-wrapper">
-
-          <div class="hamburger-card" hidden>
-            <div class="mobile-bg">
-              <img src="/src/images/Frame.png" alt="" />
-              <div class="logo-large">
-
+            <div class="menu">
+                <button aria-expanded="false" aria-controls="menu">
+                    <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.75 4.25H13.25M2.75 12.25H13.25H2.75ZM2.75 8.25H13.25H2.75Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>MENU</p>
+                </button>
               </div>
-            </div>
+          <div class="hamburger-card" hidden>
             <div class="mobile-info-container">
-              <button class="close-button">
-
-               {{-- image to close knapp --}}
-              </button>
               <ul class="mobile-ul">
                 <li class="nav-link"><a href="#">Hem</a></li>
                 <li class="nav-link"><a href="#">Om oss</a></li>
@@ -36,13 +33,7 @@
               </ul>
             </div>
           </div>
-          <div class="menu">
-            <button aria-expanded="false" aria-controls="menu">
-              <span class="hamburger-1"></span>
-              <span class="hamburger-2"></span>
-              <span class="hamburger-3"></span>
-            </button>
-          </div>
         </div>
       </nav>
-    </header>
+
+</header>
